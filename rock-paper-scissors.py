@@ -15,16 +15,16 @@ if start.lower() == 'yes':
         j = results[randrange(3)]
 
         if i.lower() == 'i quit':
-            print('Thank you for playing.')
+            print('Thank you for playing!')
             break
         elif i.title() == j:
-            print(f'You opponent chose {j}.')
-            print('Game Tied')
+            print(f'Your opponent chose {j}.')
+            print('Game Tied.')
         elif i.title() == 'Paper' and j == 'Rock' or i.title() == 'Rock' and j == 'Scissors' or i.title() == 'Scissors' and j == 'Paper':
-            print(f'You opponent chose {j}.')
-            print('You Win')
+            print(f'Your opponent chose {j}.')
+            print('You Win!')
         else:
-            print(f'You opponent chose {j}.')
-            print('You Lose')
+            print(f'Your opponent chose {j}.')
+            print('You Lose.')
 else:
     print('Thank you.')
